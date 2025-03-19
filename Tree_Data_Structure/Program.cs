@@ -139,7 +139,7 @@ public class BinaryTree
     //wstawianie wartości w dziecko - NODE (lewy lub prawy)
     public TreeNode Insert(TreeNode node, int value)
     {
-        if (node == null)
+        if(node == null)
         {
             return new TreeNode(value);     //umieszczamy wartość w pustą komurkę
         }
